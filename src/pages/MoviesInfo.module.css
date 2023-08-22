@@ -1,0 +1,14 @@
+.backBtn {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--color-text);
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.backBtn:is(:hover, :focus) {
+  background-color: var(--color-title);
+}

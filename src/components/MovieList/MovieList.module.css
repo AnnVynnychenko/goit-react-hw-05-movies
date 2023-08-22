@@ -1,0 +1,19 @@
+.trendingListItem:not(:last-child) {
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.trendingListLink {
+  font-size: 18px;
+  color: var(--color-text);
+  transition: 0.3s;
+}
+
+.trendingListLink:is(:hover, :focus) {
+  color: var(--color-hover);
+  font-size: 19px;
+}
+
+.movieList {
+  margin-top: 30px;
+}

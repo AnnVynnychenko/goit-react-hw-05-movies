@@ -1,0 +1,29 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.input {
+  flex-grow: 0.2;
+  padding: 8px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+.searchBtn {
+  padding: 8px 16px;
+  background-color: var(--btn-bg);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.searchBtn:is(:hover, :focus) {
+  background-color: var(--color-hover);
+}

@@ -1,0 +1,7 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  list-style: none;
+}

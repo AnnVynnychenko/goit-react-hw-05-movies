@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--color-title);
+  overflow: hidden;
+  border-bottom: 1px solid var(--header-border);
+  box-shadow: var(--header-shadow);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.listItem {
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.listItem:is(:hover, :focus) {
+  background-color: var(--color-hover);
+  color: var(--white);
+}

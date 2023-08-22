@@ -1,0 +1,19 @@
+.reviewItem {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--color-bg);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.author {
+  font-size: 14px;
+  color: var(--color-title);
+}
+
+.content {
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--color-text);
+}
