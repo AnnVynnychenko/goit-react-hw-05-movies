@@ -1,5 +1,5 @@
 const BASE_URL = 'https://api.themoviedb.org/';
-const API_KEY = '0488ec67ef47df59e0dbee810a773227';
+const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
 
 export const fetchMoviesCast = async movieId => {
   const response = await fetch(
